@@ -13,8 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Homepage route
 Route::view('/', 'index')->name('home');
 
+// About page route
 Route::view('/about', 'about')->name('about');
 
+// Contact page route
 Route::view('/contact', 'contact')->name('contact');
